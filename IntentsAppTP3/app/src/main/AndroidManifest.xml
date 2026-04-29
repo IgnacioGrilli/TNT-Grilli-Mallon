@@ -3,21 +3,26 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <queries>
+
         <!-- Para compartir texto (Ejercicio 1) -->
         <intent>
             <action android:name="android.intent.action.SEND" />
+
             <data android:mimeType="text/plain" />
         </intent>
         <!-- Para abrir el navegador (Ejercicio 2) -->
         <intent>
             <action android:name="android.intent.action.VIEW" />
+
             <data android:scheme="https" />
         </intent>
         <intent>
             <action android:name="android.intent.action.VIEW" />
+
             <data android:scheme="http" />
         </intent>
     </queries>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -28,20 +33,41 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IntentsAppTP3">
         <activity
+            android:name=".SaludoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ejercicio5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".CamaraActivity"
+            android:exported="false"
+            android:theme="@style/Theme.IntentsAppTP3" />
+        <activity
+            android:name=".GeolocalizacionActivity"
+            android:exported="false"
+            android:theme="@style/Theme.IntentsAppTP3" />
+        <activity
             android:name=".BrowserActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.IntentsAppTP3">
+
+            <!-- Inicio normal de la app -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+            <!-- Recibir texto compartido desde otras apps -->
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+
         </activity>
     </application>
-
-
 
 </manifest>

@@ -15,7 +15,7 @@ class BrowserActivity : AppCompatActivity() {
         setContentView(R.layout.activity_browser)
 
         val etUrl = findViewById<EditText>(R.id.etUrl)
-        val btnAbrir = findViewById<Button>(R.id.btnAbrir)
+            val btnAbrir = findViewById<Button>(R.id.btnAbrir)
 
         btnAbrir.setOnClickListener {
             var url = etUrl.text.toString().trim()

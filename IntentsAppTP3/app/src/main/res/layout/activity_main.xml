@@ -35,13 +35,40 @@
         android:id="@+id/btnIrEjercicio2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ir a Ejercicio 2"
+        android:text="Ir a Ejercicio 2 Uri"
         android:layout_marginTop="16dp"/>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnIrEjercicio3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="" />
+        android:text="Ir a Ejercicio 3 Mapa y Numero de telefono"
+        android:layout_marginTop="16dp"/>
+        />
+
+    <Button
+        android:id="@+id/btnIrEjercicio4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ir a Ejercicio 4 Camara"
+        android:layout_marginTop="16dp"/>
+    />
+    <Button
+        android:id="@+id/btnIrEjercicio5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ir a Ejercicio 5 Navegación y pase de datos:"
+        android:layout_marginTop="16dp"/>
+    />
+
+    <TextView
+        android:id="@+id/tvTextoCompartido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Esperando texto compartido de otra app..."
+        android:textSize="18sp"
+        android:padding="16dp" />
+
+
 
 </LinearLayout>

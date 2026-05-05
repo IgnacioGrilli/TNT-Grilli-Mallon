@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/fragment_login">
+
+    <fragment
+        android:id="@+id/fragment_login"
+        android:name="unpsjb.tnt.gestion_gastos.ui.ui.login.LoginFragment"
+        android:label=""
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/fragment_home"
+        android:name="unpsjb.tnt.gestion_gastos.ui.home.HomeFragment"
+        android:label=""
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/fragment_accounts"
+        android:name="unpsjb.tnt.gestion_gastos.ui.accounts.AccountsFragment"
+        tools:layout="@layout/fragment_accounts" />
+
+    <fragment
+        android:id="@+id/fragment_categories"
+        android:name="unpsjb.tnt.gestion_gastos.ui.categories.CategoriesFragment"
+        tools:layout="@layout/fragment_categories" />
+
+    <fragment
+        android:id="@+id/fragment_charts"
+        android:name="unpsjb.tnt.gestion_gastos.ui.charts.ChartsFragment"
+        tools:layout="@layout/fragment_charts" />
+
+    <fragment
+        android:id="@+id/fragment_alerts"
+        android:name="unpsjb.tnt.gestion_gastos.ui.alerts.AlertsFragment"
+        tools:layout="@layout/fragment_alerts" />
+
+    <fragment
+        android:id="@+id/fragment_about"
+        android:name="unpsjb.tnt.gestion_gastos.ui.about.AboutFragment"
+        android:label=""
+        tools:layout="@layout/fragment_about" />
+
+    <!--  Auxiliar para permitir cerrar sesion, luego se debe borrar.  -->
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="unpsjb.tnt.gestion_gastos.ui.slideshow.SlideshowFragment"
+        android:label=""
+        tools:layout="@layout/fragment_slideshow" />
+
+</navigation>

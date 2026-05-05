@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/fragment_home"
+            android:icon="@drawable/outline_account_balance_wallet_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/fragment_accounts"
+            android:icon="@drawable/outline_account_balance_24"
+            android:title="@string/menu_accounts" />
+        <item
+            android:id="@+id/fragment_categories"
+            android:icon="@drawable/outline_category_24"
+            android:title="@string/menu_categories" />
+        <item
+            android:id="@+id/fragment_charts"
+            android:icon="@drawable/outline_bar_chart_4_bars_24"
+            android:title="@string/menu_charts" />
+        <item
+            android:id="@+id/fragment_alerts"
+            android:icon="@drawable/outline_circle_notifications_24"
+            android:title="@string/menu_alerts" />
+
+        <item
+            android:id="@+id/fragment_login"
+            android:icon="@drawable/baseline_login_24"
+            android:title="@string/menu_sign_in" />
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/baseline_logout_24"
+            android:title="@string/menu_end_sesion" />
+
+        <item
+            android:id="@+id/fragment_about"
+            android:icon="@drawable/outline_auto_stories_24"
+            android:title="@string/menu_about" />
+
+    </group>
+</menu>

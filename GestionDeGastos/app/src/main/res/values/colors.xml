@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Colores base Material -->
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
@@ -7,6 +8,22 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="primary">#1a8991</color>
-    <color name="primary_variant">#1dabb5</color>
+
+    <!-- ── Paleta oscura estilo la referencia ── -->
+    <color name="bg_dark">#1A1F1E</color>        <!-- fondo principal muy oscuro -->
+    <color name="bg_card">#242928</color>         <!-- fondo de cards / lista -->
+    <color name="bg_chip">#2E3533</color>         <!-- chip no seleccionado -->
+    <color name="bg_chip_selected">#3D4742</color><!-- chip seleccionado -->
+
+    <color name="text_primary">#F0F4F2</color>    <!-- texto principal blanco cálido -->
+    <color name="text_secondary">#7A8885</color>  <!-- texto secundario gris verde -->
+
+    <color name="accent_yellow">#E8C44A</color>   <!-- amarillo dorado (FAB, tab activo) -->
+
+    <!-- Ingresos / Gastos -->
+    <color name="income_green">#4CAF82</color>
+    <color name="expense_red">#E05C5C</color>
+
+    <!-- Icono círculo fondo -->
+    <color name="icon_circle_bg">#2E3533</color>
 </resources>

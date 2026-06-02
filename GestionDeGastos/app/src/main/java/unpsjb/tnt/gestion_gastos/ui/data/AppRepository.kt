@@ -3,6 +3,7 @@ package unpsjb.tnt.gestion_gastos.ui.data
 import androidx.lifecycle.MutableLiveData
 import unpsjb.tnt.gestion_gastos.ui.data.model.Category
 import unpsjb.tnt.gestion_gastos.ui.data.model.CategoryType
+import unpsjb.tnt.gestion_gastos.ui.data.model.Icon
 import unpsjb.tnt.gestion_gastos.ui.data.model.Transaction
 
 /**
@@ -24,6 +25,70 @@ object AppRepository {
         )
     )
 
+    val icons = MutableLiveData<MutableList<Icon>>(
+        mutableListOf(
+            Icon(icon = "🍔"),
+            Icon(icon = "🛒"),
+            Icon(icon = "🚗"),
+            Icon(icon = "⛽"),
+            Icon(icon = "💊"),
+            Icon(icon = "📚"),
+            Icon(icon = "🎬"),
+            Icon(icon = "⚽"),
+            Icon(icon = "✈️"),
+            Icon(icon = "🏠"),
+            Icon(icon = "💡"),
+            Icon(icon = "🌐"),
+            Icon(icon = "📱"),
+            Icon(icon = "👕"),
+            Icon(icon = "🐶"),
+            Icon(icon = "🎁"),
+            Icon(icon = "💰"),
+            Icon(icon = "📈"),
+            Icon(icon = "💵"),
+            Icon(icon = "📦"),
+            Icon(icon = "☕"),
+            Icon(icon = "🍕"),
+            Icon(icon = "🚕"),
+            Icon(icon = "🚌"),
+            Icon(icon = "🚆"),
+            Icon(icon = "🚲"),
+            Icon(icon = "🏥"),
+            Icon(icon = "🎵"),
+            Icon(icon = "🎮"),
+            Icon(icon = "🍿"),
+            Icon(icon = "🏦"),
+            Icon(icon = "💳"),
+            Icon(icon = "🧾"),
+            Icon(icon = "💼"),
+            Icon(icon = "🎓"),
+            Icon(icon = "🌱"),
+            Icon(icon = "🔧"),
+            Icon(icon = "🔒"),
+            Icon(icon = "📷"),
+            Icon(icon = "🎨"),
+            Icon(icon = "📺"),
+            Icon(icon = "🖥️"),
+            Icon(icon = "⌚"),
+            Icon(icon = "💍"),
+            Icon(icon = "🧹"),
+            Icon(icon = "🛠️"),
+            Icon(icon = "📍"),
+            Icon(icon = "🌍"),
+            Icon(icon = "📖"),
+            Icon(icon = "🧠"),
+            Icon(icon = "🎤"),
+            Icon(icon = "🎻"),
+            Icon(icon = "🏋️"),
+            Icon(icon = "🥗"),
+            Icon(icon = "🥐"),
+            Icon(icon = "🍣"),
+            Icon(icon = "🌮"),
+            Icon(icon = "🍰"),
+            Icon(icon = "🧃"),
+            Icon(icon = "🚀")
+        )
+    )
     val transactions = MutableLiveData<MutableList<Transaction>>(mutableListOf())
 
     fun addCategory(category: Category) {
@@ -46,4 +111,7 @@ object AppRepository {
 
     fun categoriasByType(type: CategoryType): List<Category> =
         categories.value?.filter { it.type == type } ?: emptyList()
+
+    fun getIcons(): List<Icon> =
+        icons.value?: emptyList()
 }

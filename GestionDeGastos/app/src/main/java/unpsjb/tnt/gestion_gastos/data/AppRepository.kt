@@ -1,10 +1,10 @@
-package unpsjb.tnt.gestion_gastos.ui.data
+package unpsjb.tnt.gestion_gastos.data
 
 import androidx.lifecycle.MutableLiveData
-import unpsjb.tnt.gestion_gastos.ui.data.model.Category
-import unpsjb.tnt.gestion_gastos.ui.data.model.CategoryType
-import unpsjb.tnt.gestion_gastos.ui.data.model.Icon
-import unpsjb.tnt.gestion_gastos.ui.data.model.Transaction
+import unpsjb.tnt.gestion_gastos.data.model.Category
+import unpsjb.tnt.gestion_gastos.data.model.CategoryType
+import unpsjb.tnt.gestion_gastos.data.model.Icon
+import unpsjb.tnt.gestion_gastos.data.model.Transaction
 
 /**
  * Repositorio central en memoria (sin persistencia).

@@ -4,16 +4,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import unpsjb.tnt.gestion_gastos.R
-import unpsjb.tnt.gestion_gastos.ui.data.model.Category
-import unpsjb.tnt.gestion_gastos.ui.data.model.CategoryType
-import unpsjb.tnt.gestion_gastos.ui.data.model.Transaction
-import java.text.NumberFormat
-import java.util.Locale
+import unpsjb.tnt.gestion_gastos.data.model.Category
 
 class CategoriesAdapter : ListAdapter<Category, CategoriesAdapter.ViewHolder>(DiffCallback) {
 

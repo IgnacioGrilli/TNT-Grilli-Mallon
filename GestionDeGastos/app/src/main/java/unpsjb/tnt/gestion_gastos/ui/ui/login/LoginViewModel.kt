@@ -5,8 +5,8 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import android.util.Patterns
-import unpsjb.tnt.gestion_gastos.ui.data.LoginRepository
-import unpsjb.tnt.gestion_gastos.ui.data.Result
+import unpsjb.tnt.gestion_gastos.data.LoginRepository
+import unpsjb.tnt.gestion_gastos.data.Result
 
 import unpsjb.tnt.gestion_gastos.R
 

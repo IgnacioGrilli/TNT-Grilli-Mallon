@@ -1,9 +1,10 @@
-package unpsjb.tnt.gestion_gastos.ui.data.model
+package unpsjb.tnt.gestion_gastos.data.model
 
 import java.util.Date
+import java.util.UUID
 
 data class Transaction(
-    val id: String = java.util.UUID.randomUUID().toString(),
+    val id: String = UUID.randomUUID().toString(),
     val amount: Double,
     val description: String,
     val category: Category,

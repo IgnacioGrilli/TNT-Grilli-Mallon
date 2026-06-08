@@ -11,18 +11,14 @@ import android.widget.ArrayAdapter
 import android.widget.EditText
 import android.widget.Spinner
 import android.widget.TextView
-import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.tabs.TabLayout
 import unpsjb.tnt.gestion_gastos.R
-import unpsjb.tnt.gestion_gastos.ui.data.AppRepository
-import unpsjb.tnt.gestion_gastos.ui.data.model.Category
-import unpsjb.tnt.gestion_gastos.ui.data.model.CategoryType
-import unpsjb.tnt.gestion_gastos.ui.data.model.Transaction
-import unpsjb.tnt.gestion_gastos.ui.home.PeriodFilter
-import unpsjb.tnt.gestion_gastos.ui.home.TransactionAdapter
+import unpsjb.tnt.gestion_gastos.data.AppRepository
+import unpsjb.tnt.gestion_gastos.data.model.Category
+import unpsjb.tnt.gestion_gastos.data.model.CategoryType
 
 class CategoriesFragment : Fragment() {
 

@@ -1,4 +1,4 @@
-package unpsjb.tnt.gestion_gastos.ui.data
+package unpsjb.tnt.gestion_gastos.data
 
 /**
  * A generic class that holds a value with its loading status.

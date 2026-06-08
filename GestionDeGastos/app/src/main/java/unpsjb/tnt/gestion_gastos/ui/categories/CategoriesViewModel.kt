@@ -4,12 +4,9 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MediatorLiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import unpsjb.tnt.gestion_gastos.ui.data.AppRepository
-import unpsjb.tnt.gestion_gastos.ui.data.model.Category
-import unpsjb.tnt.gestion_gastos.ui.data.model.CategoryType
-import unpsjb.tnt.gestion_gastos.ui.data.model.Transaction
-import unpsjb.tnt.gestion_gastos.ui.home.HomeUiState
-import unpsjb.tnt.gestion_gastos.ui.home.PeriodFilter
+import unpsjb.tnt.gestion_gastos.data.AppRepository
+import unpsjb.tnt.gestion_gastos.data.model.Category
+import unpsjb.tnt.gestion_gastos.data.model.CategoryType
 
 
 data class CategoriesUiState(

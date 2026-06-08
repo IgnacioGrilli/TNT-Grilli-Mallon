@@ -2,8 +2,8 @@ package unpsjb.tnt.gestion_gastos.ui.ui.login
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import unpsjb.tnt.gestion_gastos.ui.data.LoginDataSource
-import unpsjb.tnt.gestion_gastos.ui.data.LoginRepository
+import unpsjb.tnt.gestion_gastos.data.LoginDataSource
+import unpsjb.tnt.gestion_gastos.data.LoginRepository
 
 /**
  * ViewModel provider factory to instantiate LoginViewModel.

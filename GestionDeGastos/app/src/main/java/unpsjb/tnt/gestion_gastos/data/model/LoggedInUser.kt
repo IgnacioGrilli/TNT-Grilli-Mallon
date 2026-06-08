@@ -1,4 +1,4 @@
-package unpsjb.tnt.gestion_gastos.ui.data.model
+package unpsjb.tnt.gestion_gastos.data.model
 
 /**
  * Data class that captures user information for logged in users retrieved from LoginRepository

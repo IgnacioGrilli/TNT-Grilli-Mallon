@@ -1,6 +1,6 @@
-package unpsjb.tnt.gestion_gastos.ui.data
+package unpsjb.tnt.gestion_gastos.data
 
-import unpsjb.tnt.gestion_gastos.ui.data.model.LoggedInUser
+import unpsjb.tnt.gestion_gastos.data.model.LoggedInUser
 
 /**
  * Class that requests authentication and user information from the remote data source and

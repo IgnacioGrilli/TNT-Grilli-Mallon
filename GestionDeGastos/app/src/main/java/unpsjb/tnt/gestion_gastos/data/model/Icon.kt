@@ -1,4 +1,4 @@
-package unpsjb.tnt.gestion_gastos.ui.data.model
+package unpsjb.tnt.gestion_gastos.data.model
 
 import java.util.UUID
 data class Icon(

@@ -8,8 +8,8 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import unpsjb.tnt.gestion_gastos.R
-import unpsjb.tnt.gestion_gastos.ui.data.model.CategoryType
-import unpsjb.tnt.gestion_gastos.ui.data.model.Transaction
+import unpsjb.tnt.gestion_gastos.data.model.CategoryType
+import unpsjb.tnt.gestion_gastos.data.model.Transaction
 import java.text.NumberFormat
 import java.util.Locale
 
